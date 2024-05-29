@@ -1,0 +1,28 @@
+.container_rodape {
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px 20px;
+  gap: 60px;
+}
+
+.img
+ {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.container_informacoes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.container_informacoes h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,37 @@
+.header_container {
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  padding: 10px;
+  top: 0;
+}
+
+.header_content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header_content img {
+  width: 100px;
+}
+
+.header_content nav {
+  display: flex;
+  padding: 10px;
+  gap: 40px;
+}
+
+.header_content a {
+  padding: 18px;
+  font-size: 16px;
+  color: var(--black);
+  font-weight: 500;
+}
+
+@media(max-with: 600px) {
+  
+}

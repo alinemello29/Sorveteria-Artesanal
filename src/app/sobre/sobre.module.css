@@ -1,0 +1,41 @@
+.hero_sobre {
+  background-image: url('../../../public/banner-sobre.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sobre {
+  text-align: center;
+}
+
+.sobre_content {
+  padding: 100px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sobre h2 {
+  font-size: 32px;
+}
+
+.sobre h3 {
+  font-size: 20px;
+}
+
+.sobre p {
+  font-size: 16px;
+}
+
+.img_wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.img_wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

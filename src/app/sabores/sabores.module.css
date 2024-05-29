@@ -1,0 +1,70 @@
+.sabores_container header{
+  background-image: url('../../../public/banner-sabores.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sabores_content {
+  padding: 100px;
+  margin: 0 auto;
+}
+
+.sabores_content h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.card {
+  flex: 1 1 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 15px 2px var(--gray-1);
+  text-align: center;
+  gap: 20px;
+  max-width: 300px;
+}
+
+.card img{
+  width: auto;
+  height: 150px;
+}
+.card p{
+  font-size: 18px;
+}
+
+.card p{
+  font-size: 14px;
+}
+
+@media (max-width: 700px){
+  .sabores_content {
+    padding: 80px 20px;
+    margin: 40px auto;
+  }
+  
+
+  .card {
+    flex: 1 1 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 15px 2px var(--gray-1);
+    text-align: center;
+    gap: 20px;
+  }
+}
